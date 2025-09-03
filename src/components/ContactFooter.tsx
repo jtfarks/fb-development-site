@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Card, CardContent } from '@/components/ui/card';
-import { MapPin, Phone, Mail, Clock, Linkedin, Instagram, CheckCircle, AlertCircle } from 'lucide-react';
+import { MapPin, Phone, Linkedin, Instagram, CheckCircle, AlertCircle } from 'lucide-react';
 
 const ContactFooter = () => {
   const [formData, setFormData] = useState({
@@ -157,7 +157,7 @@ const ContactFooter = () => {
                     {submitStatus === 'success' && (
                       <div className="flex items-center space-x-2 text-green-600 bg-green-50 p-4 rounded-lg">
                         <CheckCircle className="w-5 h-5" />
-                        <span className="font-serif">Thank you! Your message has been sent successfully. We'll get back to you soon.</span>
+                        <span className="font-serif">Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.</span>
                       </div>
                     )}
 
