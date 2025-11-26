@@ -23,7 +23,6 @@ const Navigation = () => {
     { href: '#approach', label: 'Our Approach' },
     { href: '#projects', label: 'Projects' },
     { href: '#sustainability', label: 'Sustainability' },
-    { href: '#journal', label: 'Journal' },
     { href: '#contact', label: 'Contact' },
   ];
 
