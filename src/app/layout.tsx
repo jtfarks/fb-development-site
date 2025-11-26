@@ -17,7 +17,7 @@ const libreBaskerville = Libre_Baskerville({
 
 export const metadata: Metadata = {
   title: "FB Development Company | Heritage Property Development Bedfordshire",
-  description: "Transforming historic rural properties with sustainable design. Family-owned UK development company specializing in heritage preservation and contemporary ecological principles.",
+  description: "Transforming historic rural properties with sustainable design. Family-owned UK development company specialising in heritage preservation and contemporary ecological principles.",
   keywords: "heritage property development, barn conversions, sustainable building UK, historic property restoration, Bedfordshire development, conservation area planning",
   authors: [{ name: "FB Development Company" }],
   creator: "FB Development Company",
@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     locale: "en_GB",
     url: "https://fbdevelopment.co.uk",
     title: "FB Development Company | Heritage Property Development",
-    description: "Transforming historic rural properties with sustainable design. Family-owned UK development company specializing in heritage preservation.",
+    description: "Transforming historic rural properties with sustainable design. Family-owned UK development company specialising in heritage preservation.",
     siteName: "FB Development Company",
   },
   twitter: {
     card: "summary_large_image",
     title: "FB Development Company | Heritage Property Development",
-    description: "Transforming historic rural properties with sustainable design. Family-owned UK development company specializing in heritage preservation.",
+    description: "Transforming historic rural properties with sustainable design. Family-owned UK development company specialising in heritage preservation.",
   },
 };
 

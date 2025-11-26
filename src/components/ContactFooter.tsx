@@ -250,7 +250,7 @@ const ContactFooter = () => {
                 </div>
               </div>
               <p className="font-serif text-primary-foreground/80 leading-relaxed mb-6 max-w-md">
-                Transforming historic rural properties with sustainable design. Family-owned heritage development company specializing in preservation and contemporary ecological principles.
+                Transforming historic rural properties with sustainable design. Family-owned heritage development company specialising in preservation and contemporary ecological principles.
               </p>
               
               {/* Newsletter Signup */}

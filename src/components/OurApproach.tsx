@@ -21,7 +21,7 @@ const OurApproach = () => {
               </div>
               
               <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary mb-8 leading-tight">
-                Honoring Heritage, Embracing Tomorrow
+                Honouring Heritage, Embracing Tomorrow
               </h2>
               
               <div className="space-y-8 font-serif text-lg leading-loose text-slate-gray">
@@ -30,7 +30,7 @@ const OurApproach = () => {
                 </p>
                 
                 <p>
-                  We believe that sustainable development doesn&apos;t mean compromise. By carefully integrating modern ecological design principles with traditional craftsmanship, we create homes that honor their heritage while meeting contemporary living standards.
+                  We believe that sustainable development doesn&apos;t mean compromise. By carefully integrating modern ecological design principles with traditional craftsmanship, we create homes that honour their heritage while meeting contemporary living standards.
                 </p>
                 
                 <p>

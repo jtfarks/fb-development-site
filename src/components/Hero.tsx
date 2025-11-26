@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-transparent lg:from-black/30 lg:to-transparent"></div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-left pt-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">
             {/* Badge */}
@@ -53,10 +53,10 @@ const Hero = () => {
             {/* Main Heading */}
             <h1 className="font-heading font-bold text-cream-paper mb-6 drop-shadow-lg">
               <div className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight mb-2">
-                BUILDING BEAUTY.
+                PRESERVING CHARACTER.
               </div>
               <div className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight">
-                PRESERVING CHARACTER.
+                BUILDING BEAUTY.
               </div>
             </h1>
 
