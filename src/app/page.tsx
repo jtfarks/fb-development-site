@@ -3,7 +3,6 @@ import Hero from '@/components/Hero';
 import OurApproach from '@/components/OurApproach';
 import Projects from '@/components/Projects';
 import Sustainability from '@/components/Sustainability';
-import Journal from '@/components/Journal';
 import ContactFooter from '@/components/ContactFooter';
 
 export default function Home() {
@@ -14,7 +13,6 @@ export default function Home() {
       <OurApproach />
       <Projects />
       <Sustainability />
-      <Journal />
       <ContactFooter />
     </div>
   );

@@ -85,42 +85,6 @@ const Sustainability = () => {
             ))}
           </div>
 
-          {/* Additional Content */}
-          <div className="bg-cream-paper/50 rounded-xl p-8 mb-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div>
-                <h3 className="font-heading text-2xl font-semibold text-primary mb-4">
-                  Our Environmental Promise
-                </h3>
-                <div className="space-y-3 font-serif text-slate-gray">
-                  <p className="flex items-start">
-                    <span className="w-2 h-2 bg-moss-green rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    All timber sourced from sustainably managed forests or reclaimed sources
-                  </p>
-                  <p className="flex items-start">
-                    <span className="w-2 h-2 bg-moss-green rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Waste reduction through careful planning and material reuse programs
-                  </p>
-                  <p className="flex items-start">
-                    <span className="w-2 h-2 bg-moss-green rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Partnership with local suppliers to reduce transportation emissions
-                  </p>
-                  <p className="flex items-start">
-                    <span className="w-2 h-2 bg-moss-green rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    Wildlife habitat preservation and enhancement where possible
-                  </p>
-                </div>
-              </div>
-              
-              <div className="text-center">
-                <div className="bg-white rounded-lg p-6 shadow-sm">
-                  <div className="text-4xl font-heading font-bold text-primary mb-2">40%</div>
-                  <div className="text-sm font-heading text-moss-green font-medium">Average Energy Efficiency Improvement</div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* CTA */}
           <div className="text-center">
             <Button
