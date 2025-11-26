@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -11,9 +12,9 @@ const Projects = () => {
     {
       id: 1,
       title: "Victorian Farm Conversion, Bedfordshire",
-      description: "Historic 18th-century barn transformed into a contemporary family home",
-      image: "/api/placeholder/600/400",
-      category: "Barn Conversion",
+      description: "Historic 1872 Victorian farm building transformed into a contemporary family home",
+      image: "/images/projects/victorian-farm-1872.jpg",
+      category: "Farm Conversion",
       year: "2023"
     }
   ];
@@ -46,14 +47,15 @@ const Projects = () => {
               className="group overflow-hidden border border-cream-paper/50 bg-white shadow-md hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 hover:border-primary/20"
             >
               <div className="relative overflow-hidden">
-                {/* Placeholder for project image */}
-                <div className="aspect-[4/3] bg-gradient-to-br from-primary/10 to-moss-green/10 flex items-center justify-center">
-                  <div className="text-center text-slate-gray">
-                    <div className="w-12 h-12 bg-primary/20 rounded mx-auto mb-3 flex items-center justify-center">
-                      <div className="w-6 h-6 bg-primary/30 rounded"></div>
-                    </div>
-                    <p className="font-serif text-xs px-4">Project Image: {project.title}</p>
-                  </div>
+                {/* Project image */}
+                <div className="aspect-[4/3] relative">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover object-center"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  />
                 </div>
                 
                 {/* Overlay */}
