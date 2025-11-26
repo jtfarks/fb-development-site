@@ -10,55 +10,15 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Georgian Barn Conversion, Bedfordshire",
+      title: "Victorian Farm Conversion, Bedfordshire",
       description: "Historic 18th-century barn transformed into a contemporary family home",
       image: "/api/placeholder/600/400",
       category: "Barn Conversion",
       year: "2023"
-    },
-    {
-      id: 2,
-      title: "Victorian Farmhouse Restoration, Ampthill",
-      description: "Sympathetic restoration preserving original features with modern comfort",
-      image: "/api/placeholder/600/450",
-      category: "Restoration",
-      year: "2023"
-    },
-    {
-      id: 3,
-      title: "Medieval Cottage Extension, Woburn",
-      description: "Careful extension respecting 15th-century timber frame construction",
-      image: "/api/placeholder/600/500",
-      category: "Extension",
-      year: "2022"
-    },
-    {
-      id: 4,
-      title: "Edwardian Manor Renovation, Bedford",
-      description: "Full renovation with heritage-approved energy efficiency upgrades",
-      image: "/api/placeholder/600/380",
-      category: "Renovation",
-      year: "2022"
-    },
-    {
-      id: 5,
-      title: "Stone Cottage Conversion, Sharnbrook",
-      description: "Traditional stone cottage opened up for contemporary family living",
-      image: "/api/placeholder/600/420",
-      category: "Conversion",
-      year: "2021"
-    },
-    {
-      id: 6,
-      title: "Tudor Farmhouse Revival, Turvey",
-      description: "16th-century farmhouse brought back to life with sustainable features",
-      image: "/api/placeholder/600/460",
-      category: "Revival",
-      year: "2021"
-    },
+    }
   ];
 
-  const visibleProjects = showAll ? projects : projects.slice(0, 4);
+  const visibleProjects = projects;
 
   return (
     <section id="projects" className="py-24 bg-cream-paper">
@@ -133,16 +93,6 @@ const Projects = () => {
           ))}
         </div>
 
-        {/* Load More / View All Button */}
-        <div className="text-center">
-          <Button
-            onClick={() => setShowAll(!showAll)}
-            variant="outline"
-            className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-heading font-semibold px-8 py-3"
-          >
-            {showAll ? 'Show Less' : 'View All Projects'}
-          </Button>
-        </div>
       </div>
     </section>
   );
