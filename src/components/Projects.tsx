@@ -15,7 +15,7 @@ const Projects = () => {
       description: "Historic 1872 Victorian farm building transformed into a contemporary family home",
       image: "/images/projects/victorian-farm-1872.jpg",
       category: "Farm Conversion",
-      year: "2023"
+      year: "2025"
     }
   ];
 
