@@ -75,7 +75,7 @@ const ContactFooter = () => {
               Start Your Heritage Journey
             </h2>
             <p className="font-serif text-lg text-slate-gray max-w-3xl mx-auto leading-relaxed">
-              Ready to transform your historic property? We&apos;d love to hear about your project and explore how we can bring your vision to life.
+              Want to connect with us? We&apos;re always looking for new opportunities, whether it be land for purchase or a partnership on your own project.
             </p>
           </div>
 
@@ -287,9 +287,9 @@ const ContactFooter = () => {
               <ul className="space-y-3 font-serif">
                 <li className="text-primary-foreground/80">Heritage Restoration</li>
                 <li className="text-primary-foreground/80">Barn Conversions</li>
+                <li className="text-primary-foreground/80">New Build Construction</li>
                 <li className="text-primary-foreground/80">Planning Consultation</li>
                 <li className="text-primary-foreground/80">Sustainable Design</li>
-                <li className="text-primary-foreground/80">Project Management</li>
               </ul>
             </div>
           </div>
