@@ -12,7 +12,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Victorian Farm Conversion, Bedfordshire",
-      description: "Historic Victorian farm building transformed into a contemporary family home",
+      description: "Historic Victorian farm buildings transformed into contemporary family homes",
       image: "/images/projects/victorian-farm-1872.jpg",
       category: "Farm Conversion",
       year: "2025"
